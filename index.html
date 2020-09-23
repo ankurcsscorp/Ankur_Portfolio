@@ -10,6 +10,10 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
   <link href="assets/img/testimonial-2.jpg" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
@@ -29,7 +33,7 @@
   <!-- ======= Header/ Navbar ======= -->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">Ankur Kumar</a>
+      <a class="navbar-brand js-scroll" href="#page-top" style="font-family: 'Caveat', cursive;">Ankur Kumar</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
         <span></span>
@@ -64,8 +68,8 @@
       <div class="table-cell">
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="intro-title mb-4" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">I'm Ankur Kumar</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">UI Developer, Web Developer, Web Designer, React Developer,Frontend Developer,Graphic Designer</span><strong class="text-slider"></strong></p>
+          <h1 class="intro-title mb-4" style="font-family: 'Caveat', cursive;">I'm Ankur Kumar</h1>
+          <p style="font-family: 'Caveat', cursive;" class="intro-subtitle"><span class="text-slider-items" >UI Developer, Web Developer, Web Designer, React Developer,Frontend Developer,Graphic Designer</span><strong class="text-slider"></strong></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
       </div>
@@ -247,7 +251,24 @@
         </div>
       </div>
     </section><!-- End Services Section -->
+    <!-- Resume Section -->
+    <div class="downloadCV"><p id="resume_header">Download my Resume</p>
+      <img src="download-flat.png" id="donload_icon" alt="download" value="Download" onclick="disp()">
+      <img src="abcd.gif" id="download_gif" style="display: none;">
+      <textarea id="text" style="display: none;">  
+Hi! I am Ankur Kumar,
+A web designer/developer focused on crafting great web experiences.<br>
+Designing and Coding have been my passion since the days I started working with computers<br>
+but I found myself into web design/development since 2018. I enjoy creating beautifully designed,<br>
+intuitive and functional websites.<br><br><br>
 
+For over past 2 years, I have worked for some of the best e-commerce companies<br>
+and wonderful clients to create some award winning works.<br>
+And, I can make this happen for your business as well.<br>
+
+
+      </textarea> 
+    </div>
     <!-- ======= Counter Section ======= -->
     <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
       <div class="overlay-mf"></div>
@@ -603,6 +624,7 @@
   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 
   <!-- Template Main JS File -->
+  <script src="assets/js/download_Resume.js"></script>
   <script src="assets/js/main.js"></script>
 
 </body>
